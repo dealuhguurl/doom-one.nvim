@@ -68,7 +68,7 @@ doom_one.set_colorscheme = function()
 	--- GENERAL UI
 	-----------------
 	set_hl("Normal", { bg = config.ui.transparent_background and "NONE" or palette.bg, fg = palette.fg })
-	set_hl("NormalFloat", { bg = config.ui.transparent_background and "NONE" or palette.bg, fg = palette.fg })
+	set_hl("NormalFloat", { bg = config.ui.transparent_background and "NONE" or palette.bg, fg = palette.bg_alt })
 	set_hl("NormalBorder", { bg = palette.bg, fg = palette.fg })
 	set_hl("NormalPopup", { bg = palette.bg_alt, fg = utils.lighten(palette.fg, 0.2) })
 	set_hl("NormalPopover", { bg = palette.bg_alt, fg = utils.lighten(palette.fg, 0.2) })
@@ -516,7 +516,7 @@ doom_one.set_colorscheme = function()
 
 	if config.plugins.telescope then
 		set_hl("TelescopeNormal", { fg = palette.fg })
-		set_hl("TelescopeBorder", { fg = dark_theme and palette.blue or palette.red })
+		set_hl("TelescopeBorder", { fg = palette.bg_alt })
 		set_hl("TelescopePrompt", { link = "TelescopeNormal" })
 		set_hl("TelescopePromptBorder", { link = "TelescopeBorder" })
 		set_hl("TelescopePromptPrefix", { fg = dark_theme and palette.blue or palette.red })
