@@ -113,7 +113,7 @@ doom_one.set_colorscheme = function()
 	set_hl("StatusLinePartNC", { link = "StatusLinePart" })
 
 	set_hl("Pmenu", { bg = palette.bg_alt, fg = palette.fg })
-	set_hl("PmenuSel", { bg = palette.blue, fg = dark_theme and palette.base0 or palette.base8 })
+	set_hl("PmenuSel", { bg = palette.magenta, fg = dark_theme and palette.base0 or palette.base8 })
 	set_hl("PmenuSelBold", { bg = palette.blue, fg = dark_theme and palette.base0 or palette.base8, bold = true })
 	set_hl("PmenuSbar", { bg = palette.bg_alt })
 	set_hl("PmenuThumb", { bg = palette.grey })
@@ -523,7 +523,7 @@ doom_one.set_colorscheme = function()
 		set_hl("TelescopeResultsBorder", { link = "TelescopeBorder" })
 		set_hl("TelescopePreviewBorder", { link = "TelescopeBorder" })
 		set_hl("TelescopeMatching", { fg = palette.violet, bold = true })
-		set_hl("TelescopeSelection", { link = "VisualBold" })
+		set_hl("TelescopeSelection", { link  })
 		set_hl("TelescopeSelectionCaret", { fg = dark_theme and palette.blue or palette.red })
 	end
 
