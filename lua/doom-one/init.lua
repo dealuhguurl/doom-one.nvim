@@ -523,7 +523,7 @@ doom_one.set_colorscheme = function()
 		set_hl("TelescopeResultsBorder", { link = "TelescopeBorder" })
 		set_hl("TelescopePreviewBorder", { link = "TelescopeBorder" })
 		set_hl("TelescopeMatching", { fg = palette.violet, bold = true })
-		set_hl("TelescopeSelection", { link  })
+		set_hl("TelescopeSelection", { link = "VisualBold" })
 		set_hl("TelescopeSelectionCaret", { fg = dark_theme and palette.blue or palette.red })
 	end
 
